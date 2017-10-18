@@ -35,7 +35,8 @@
     "autoload": {
         "psr-4": {
             "Application\\": "module/Application/src/",
-            "Prueba\\": "module/Prueba/src/"
+            "Prueba\\": "module/Prueba/src/",
+            "GetMarried\\": "module/GetMarried/src/"
         }
     },
     "autoload-dev": {

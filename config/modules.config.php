@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'Zend\Log',
     //ZF
     'Zend\Mvc\Plugin\Identity',
     'Zend\I18n',
@@ -23,13 +24,13 @@ return [
     //ZFMETAL
     'ZfMetal\Log',
     'ZfMetal\Mail',
-    'ZfcRbac',
-    'ZfMetal\Security',
-    'ZfMetal\SecuritySocial',
+   // 'ZfcRbac',
+   // 'ZfMetal\Security',
+   // 'ZfMetal\SecuritySocial',
     'ZfMetal\Commons',
     'ZfMetal\Datagrid',
     'ZfMetal\Generator',
     //MODULES
     'Application',
-    'Prueba',
+    'GetMarried',
 ];
