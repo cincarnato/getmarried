@@ -2,9 +2,11 @@
 echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/assets/favicon.ico'))
     ->appendStylesheet($this->basePath() . '/template/borrow/css/bootstrap.min.css')
     ->appendStylesheet($this->basePath() . '/template/borrow/css/style.css')
-->appendStylesheet($this->basePath() . '/template/borrow/css/fontello.css')
+    ->appendStylesheet($this->basePath() . '/template/borrow/css/fontello.css')
     ->appendStylesheet($this->basePath() . '/shared/font-awesome/css/font-awesome.min.css');
 
 echo $this->headStyle();
 ?>
 
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Merriweather:300,300i,400,400i,700,700i"
+      rel="stylesheet">
