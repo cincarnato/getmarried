@@ -18,6 +18,17 @@ return [
                     ],
                 ],
             ],
+            'TermsCondition' => [
+                'type' => 'Literal',
+                'mayTerminate' => true,
+                'options' => [
+                    'route' => '/terms-condition',
+                    'defaults' => [
+                        'controller' => \Application\Controller\IndexController::CLASS,
+                        'action' => 'terms-condition',
+                    ],
+                ],
+            ],
             'Lang' => [
                 'type' => 'Literal',
                 'mayTerminate' => true,
