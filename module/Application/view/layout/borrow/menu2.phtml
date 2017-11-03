@@ -1,0 +1,52 @@
+<div class="header-transparent navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-12 col-xs-6">
+                <!-- logo -->
+                <div class="logo">
+                    <h2 class="slider-text" href="">GetMarried<br>In Buenos Aires</h2>
+                </div>
+            </div>
+            <!-- logo -->
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div id="navigation">
+                    <!-- navigation start-->
+                    <ul>
+                        <li class="active">
+                            <a href="" class="animsition-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="" class="animsition-link">Loan Product</a>
+
+                        </li>
+                        <li>
+                            <a href="" class="animsition-link">About us</a>
+                        </li>
+                        <li>
+                            <a href="" class="animsition-link">Features</a>
+
+                        </li>
+                        <li>
+                            <a href="" title="Contact us" class="animsition-link">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navigation start-->
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12">
+            <?php echo $this->partial('layout/borrow/lang'); ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+  //jQuery to collapse the navbar on scroll
+  $(window).scroll(function() {
+    if ($(".header-transparent").offset().top > 50) {
+      $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+      $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+  });
+</script>

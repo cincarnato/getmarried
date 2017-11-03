@@ -33,5 +33,5 @@ return [
     'ZfMetal\Generator',
     //MODULES
     'Application',
-    'GetMarried',
+    //'GetMarried',
 ];

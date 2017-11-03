@@ -7,9 +7,10 @@
                     <div class="slider-captions">
                         <!-- slider-captions -->
                         <h1 class="slider-title">Marry in Buenos Airess. </h1>
-                        <p class="slider-text hidden-xs">Sexual orientation, faith or simply fun. Whatever your reasons we can help you make your dream come true.
-                        <br>
-                            <a href="team.html" class="btn btn-default hidden-xs">Our Services</a></div>
+                        <p class="slider-text hidden-xs">Sexual orientation, faith or simply fun. Whatever your reasons
+                            we can help you make your dream come true.
+                            <br>
+                            <a href="team.html" class="btn btn-default btn-sm hidden-xs">Our Services</a></div>
                     <!-- /.slider-captions -->
                 </div>
             </div>
@@ -19,39 +20,54 @@
         <div class="slider-img"><img src="/slider/m3.jpg" alt="Borrow - Loan Company Website Template" class="">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                         <div class="slider-captions">
                             <!-- slider-captions -->
                             <h1 class="slider-title"> In Argentina same sex marriage is <strong class="text-highlight">legal</strong>
                             </h1>
                             <p class="slider-text hidden-xs">As stated in our Marriage Law, “any
-                                foreigner
-                                (regardless their sexual orientation) who enters, travels or resides in The Argentine
-                                Republic”
-                                can
-                                marry.</p>
-                            <a href="#" class="btn btn-default hidden-xs">See more</a></div>
+                                foreigner (regardless their sexual orientation) who enters, travels or resides in The Argentine Republic”
+                                can marry.</p>
+                            <a href="#" class="btn btn-default btn-sm hidden-xs">See more</a>
+                        </div>
                         <!-- /.slider-captions -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <div>
+        <div class="slider-img"><img src="/slider/m4.jpg" alt="Borrow - Loan Company Website Template" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                        <div class="slider-captions">
+                            <!-- slider-captions -->
+                            <h1 class="slider-title"> WHAT WE OFFER
+                            </h1>
+                            <p class="slider-text hidden-xs">You don’t need to know how to speak Spanish or how to deal
+                                with the paperwork in Argentine institutions such as the Civil Registry</p>
+                            <a href="#" class="btn btn-default btn-sm hidden-xs">See details</a>
+                            <!-- /.slider-captions -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
+    <?php
+    $this->headScript()
+        ->appendFile($this->basePath() . '/template/borrow/js/owl.carousel.min.js')
+        ->appendFile($this->basePath() . '/template/borrow/js/slider-carousel.js')
+        ->appendFile($this->basePath() . '/template/borrow/js/service-carousel.js');
+    ?>
 
-<?php
-$this->headScript()
-    ->appendFile($this->basePath() . '/template/borrow/js/owl.carousel.min.js')
-    ->appendFile($this->basePath() . '/template/borrow/js/slider-carousel.js')
-    ->appendFile($this->basePath() . '/template/borrow/js/service-carousel.js');
-?>
 
-
-<?php
-$this->headLink()
-    ->appendStylesheet($this->basePath() . '/template/borrow/css/owl.carousel.css')
-    ->appendStylesheet($this->basePath() . '/template/borrow/css/owl.theme.css');
-?>
+    <?php
+    $this->headLink()
+        ->appendStylesheet($this->basePath() . '/template/borrow/css/owl.carousel.css')
+        ->appendStylesheet($this->basePath() . '/template/borrow/css/owl.theme.css');
+    ?>
 

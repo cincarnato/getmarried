@@ -1,5 +1,10 @@
 <?php
 echo $this->headScript()
         ->prependFile($this->basePath() . '/shared/bootstrap/js/bootstrap.min.js')
-        ->prependFile('http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js', 'text/javascript');
+        ->prependFile('http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js', 'text/javascript')
+    ->appendFile($this->basePath() . '/template/borrow/js/animsition.js')
+    ->appendFile($this->basePath() . '/template/borrow/js/animsition-script.js')
+    ->appendFile($this->basePath() . '/template/borrow/js/back-to-top.js')
+    ->appendFile($this->basePath() . '/template/borrow/js/sticky-header.js')
+;
 ?>

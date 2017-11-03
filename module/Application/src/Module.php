@@ -17,6 +17,13 @@ class Module implements ConfigProviderInterface {
         /* @var $translator \Zend\Mvc\I18n\Translator */
         $translator = $e->getApplication()->getServiceManager()->get(\Zend\Mvc\I18n\Translator::class);
         \Zend\Validator\AbstractValidator::setDefaultTranslator($translator);
+
+        // Zend\Session\Container
+        $session = New \Zend\Session\Container('language');
+        $translator
+            ->setLocale($session->language)
+            ->setFallbackLocale('en');
     }
+
 
 }
