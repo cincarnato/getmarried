@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-11-03 20:24-0300\n"
-"PO-Revision-Date: 2017-11-03 20:24-0300\n"
+"POT-Creation-Date: 2017-11-04 10:28-0300\n"
+"PO-Revision-Date: 2017-11-04 10:29-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -87,7 +87,7 @@ msgstr ""
 
 #: view/application/index/terms-condition.phtml:11
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Términos y Condiciones"
 
 #: view/application/index/terms-condition.phtml:14
 msgid ""
@@ -99,8 +99,62 @@ msgid ""
 "Upon registration and/or while surfing the Site, the User consents to the "
 "Terms and Conditions."
 msgstr ""
+"Bienvenido al sitio de internet www.getmarriedinargentina.com  (en adelante "
+"el \"Sitio\"). Los términos y condiciones, que se describen a continuación "
+"(en adelante los \"Términos y Condiciones\") tienen por objeto regular el "
+"uso que del mismo realicen las personas que ingresen al Sitio. Por \"Usuario"
+"\" del Sitio se entiende tanto a quienes se registren en el mismo como a los "
+"que tan sólo visiten el mismo (en adelante el \"Usuario\"). Al registrarse y/"
+"o navegar en el Sitio, el Usuario presta su consentimiento al presente."
 
 #: view/application/index/terms-condition.phtml:18
+msgid ""
+"The Terms and Conditions as well as the Privacy Policy and/or information "
+"about the Site will be deemed binding to any User of the Site from the first "
+"moment he/she access said Site. The Terms and Conditions herein are "
+"mandatory and binding. All purchases and transactions on the Site are "
+"subjected to said Terms and Conditions. If the User does not completely "
+"accept the Terms and Conditions and the Privacy Policy herein, he/she must "
+"not continue accessing and visiting our Site. When he/she continue visiting "
+"our Site, the User will be deemed to have accepted without reservation the "
+"Terms y Conditions and the Privacy Policy herein, accepting emails with the "
+"information that the Site deems appropriate periodically. The Terms and "
+"Conditions and the Privacy Policy may be entirely or partly modified at any "
+"time and with the sole discretion of the administration of the Site; said "
+"modifications and implementations shall be effective as of the very moment "
+"when they are posted or inserted on the Site or they are notified to the "
+"User by any means, whichever takes place first. Thus, we suggest that the "
+"User visits the Terms and Conditions and the Privacy Policy periodically. "
+"The infringements to the Terms and Conditions will enable the owners of the "
+"Site to exercise their right to cancel or terminate the service provided to "
+"the infringing User, whether by act or omission. The Site is concerned with "
+"the protection of the personal data of the Users, in terms of the principles "
+"stated in our Privacy Policy."
+msgstr ""
+"Los Términos y Condiciones así como la Política de Privacidad y/o "
+"informaciones sobre el Sitio se considerarán de aplicación para todo Usuario "
+"del Sitio desde el primer momento en que acceda al mismo. Los presentes "
+"términos y condiciones tienen carácter obligatorio y vinculante. Se aplican "
+"a todas las compras y actividades realizadas en el Sitio. Si el Usuario no "
+"acepta en forma total los presentes Términos y Condiciones y la Política de "
+"Privacidad, le rogamos que no avance en el acceso y visita de nuestro Sitio. "
+"En caso de avanzar en la visita a nuestro Sitio, se entenderá que el Usuario "
+"aceptó sin reservas los presentes Términos y Condiciones y la Política de "
+"Privacidad, aceptando recibir mails periódicos con la información que el "
+"Sitio determine. Los Términos y Condiciones y la Política de Privacidad "
+"podrán ser modificados en todo o en parte en cualquier momento y a exclusivo "
+"criterio de la administración del Sitio; dichos cambios e implementaciones "
+"tendrán vigencia a partir del momento mismo en que sean publicados o "
+"insertados en el Sitio o desde que sean notificados al Usuario por cualquier "
+"medio, lo que ocurra primero. Por lo expuesto, le sugerimos que visite los "
+"Términos y Condiciones y la Política de Privacidad periódicamente. Las "
+"violaciones a los Términos y Condiciones generarán el derecho en favor del "
+"titular del Sitio a suspender o terminar la prestación del servicio al "
+"Usuario que las haya realizado, por acción u omisión. El Sitio se preocupa "
+"por la protección de datos de carácter personal de los Usuarios, de acuerdo "
+"a los lineamientos expuestos en nuestra Política de Privacidad. "
+
+#: view/application/index/terms-condition.phtml:22
 msgid ""
 "The User may choose and change their access password to manage his/her "
 "account whenever they deem it appropriate, in case he/she have registered "
@@ -113,8 +167,19 @@ msgid ""
 "requirements of the chosen payment mode. In some cases a verification via "
 "email might be required."
 msgstr ""
+"El usuario puede elegir y cambiar la clave para su acceso de administración "
+"de la cuenta en cualquier momento, en caso de que se haya registrado y que "
+"sea necesario para la compra de alguno de nuestros productos. El Sitio no "
+"asume la responsabilidad en caso de que entregue dicha clave a terceros."
+"Todas las compras y transacciones que se lleven a cabo por medio de este "
+"sitio web están sujetas a un proceso de confirmación y verificación, el cual "
+"podría incluir la verificación del stock y disponibilidad de producto, "
+"validación de la forma de pago, validación de la factura (en caso de "
+"existir) y el cumplimiento de las condiciones requeridas por el medio de "
+"pago seleccionado. En algunos casos puede que se requiera una verificación "
+"por medio de correo electrónico."
 
-#: view/application/index/terms-condition.phtml:22
+#: view/application/index/terms-condition.phtml:26
 msgid ""
 "The products and services offered on this Site (hereinafter the \"Products"
 "\") are available only to individuals with legal capacity to purchase. Thus, "
@@ -128,39 +193,49 @@ msgid ""
 "buy on behalf of said companyand to make the company liable to the terms "
 "herein stated. "
 msgstr ""
+"Los productos y servicios que se ofrecen por medio del Sitio (en adelante "
+"los \"Productos\"), sólo están disponibles para personas que tengan "
+"capacidad legal para comprar. Por lo tanto, aquellos que no cumplan con esta "
+"condición deberán abstenerse de suministrar información personal para ser "
+"incluida en nuestras bases de datos. Sin embargo pueden hacerlo a través de "
+"sus padres o tutores. Los padres, tutores o responsables de los menores de "
+"edad o incapaces que utilicen el Sitio serán responsables por dicho uso, lo "
+"que incluye cualquier cargo, facturación o daño que se derive de él. Si el "
+"Usuario está registrado como Empresa, deberá tener capacidad para comprar  a "
+"nombre de tal entidad y de obligar a la misma en los términos del presente. "
 
-#: view/application/index/terms-condition.phtml:26
+#: view/application/index/terms-condition.phtml:30
 msgid "Availability / Price of the products"
-msgstr ""
+msgstr "Disponibilidad / Precio de productos "
 
-#: view/application/index/terms-condition.phtml:29
+#: view/application/index/terms-condition.phtml:33
 msgid ""
 "Information about products and their prices is subject to changes without "
 "prior notice."
 msgstr ""
 
-#: view/application/index/terms-condition.phtml:32
+#: view/application/index/terms-condition.phtml:36
 msgid "All prices on the Site are stated in American Dollars."
 msgstr ""
 
-#: view/application/index/terms-condition.phtml:36
+#: view/application/index/terms-condition.phtml:40
 msgid ""
 "Before purchasing, the User must bear in mind thatthe chosen productsmight "
 "not be available, since any purchase is subject to availability."
 msgstr ""
 
-#: view/application/index/terms-condition.phtml:40
+#: view/application/index/terms-condition.phtml:44
 msgid ""
 "Upon any online purchase on the Site, the User is deemed to have acceptedthe "
 "current Terms and Conditions herein, the Privacy Policyand the Policy of "
 "Changes in Online Sales."
 msgstr ""
 
-#: view/application/index/terms-condition.phtml:44
+#: view/application/index/terms-condition.phtml:48
 msgid "Services of Get Married in Argentina"
 msgstr ""
 
-#: view/application/index/terms-condition.phtml:50
+#: view/application/index/terms-condition.phtml:54
 msgid ""
 "All paperwork done by Get Married in Argentina may be done by any "
 "individual, whether Argentinian or not, resident or traveling. The Site does "
@@ -170,7 +245,7 @@ msgid ""
 "free on the appropriate governmental webpages."
 msgstr ""
 
-#: view/application/index/terms-condition.phtml:56
+#: view/application/index/terms-condition.phtml:60
 msgid ""
 "Get Married in Argentina does not overcharge or charge any special feefor "
 "the paperwork doneto obtain and legalize the marriage certificate. Likewise, "
@@ -180,11 +255,11 @@ msgid ""
 "guidancein terms of said paperwork."
 msgstr ""
 
-#: view/application/index/terms-condition.phtml:62
+#: view/application/index/terms-condition.phtml:66
 msgid "Modification of the Terms and Conditions"
 msgstr ""
 
-#: view/application/index/terms-condition.phtml:66
+#: view/application/index/terms-condition.phtml:70
 msgid ""
 "The Site may, with its sole discretion: (i) Modify or terminate, "
 "unilaterally, partiallyor totally, the layout of the elements that make up "
@@ -201,7 +276,7 @@ msgid ""
 "them."
 msgstr ""
 
-#: view/application/index/terms-condition.phtml:70
+#: view/application/index/terms-condition.phtml:74
 msgid ""
 "The User shall indemnify and keep www.getmarriedinargentina, its "
 "subsidiaries, supervised and supervising companies, managers, "
