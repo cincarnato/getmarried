@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-11-04 10:28-0300\n"
-"PO-Revision-Date: 2017-11-05 12:33-0300\n"
+"POT-Creation-Date: 2017-11-08 07:36-0300\n"
+"PO-Revision-Date: 2017-11-08 07:37-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -17,15 +17,19 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: view/application\n"
 
-#: view/application/index/index.phtml:13
+#: view/application/index/contact-ok.phtml:3
+msgid "Message sent!"
+msgstr ""
+
+#: view/application/index/index.phtml:12
 msgid "Get Married"
 msgstr "Get Married"
 
-#: view/application/index/index.phtml:15
+#: view/application/index/index.phtml:14
 msgid "Why would you choose Buenos Aires to marry?"
 msgstr "¿Por qué elegir Buenos Aires para casarte?"
 
-#: view/application/index/index.phtml:18
+#: view/application/index/index.phtml:17
 msgid ""
 "There are many reasons why you’d like to marry in Buenos Aires, Argentina. "
 "Sexual orientation, faith or simply fun. Whatever your reasons we can help "
@@ -35,7 +39,7 @@ msgstr ""
 "Argentina: Orientación sexual, exotismo o simplemente diversión. Sea como "
 "sea, te podemos ayudar a hacer tu sueño realidad. "
 
-#: view/application/index/index.phtml:22
+#: view/application/index/index.phtml:21
 msgid ""
 "We offer assistance with all paperwork, translations and interpretation "
 "services required for a civil ceremony in Buenos Aires."
@@ -44,7 +48,7 @@ msgstr ""
 "servicio de interpretación que se requieren para una ceremonia de matrimonio "
 "civil en Buenos Aires."
 
-#: view/application/index/index.phtml:25
+#: view/application/index/index.phtml:24
 msgid ""
 "Our country is not only a place for tango lovers but also a place where "
 "civil rights are granted to everybody."
@@ -53,7 +57,7 @@ msgstr ""
 "lugar en donde los derechos civiles están garantizados para todos, sea cual "
 "sea tu orientación sexual, nacionalidad y religión."
 
-#: view/application/index/index.phtml:28
+#: view/application/index/index.phtml:27
 msgid ""
 "In Argentina same sex marriage is legal and, as stated in our Marriage Law, "
 "“any foreigner (regardless their sexual orientation) who enters, travels or "
@@ -64,25 +68,29 @@ msgstr ""
 "allá de su orientación sexual) que ingrese, transite o resida en la "
 "República Argentina” puede casarse. "
 
-#: view/application/index/index.phtml:32
+#: view/application/index/index.phtml:31
 msgid ""
 "Therefore, our country is one of the few places where everyone can legally "
 "marry and the only place in the world where tourists can do so."
 msgstr ""
 
-#: view/application/index/index.phtml:35
+#: view/application/index/index.phtml:34
 msgid "Want more information? Contact us!"
 msgstr ""
 
-#: view/application/index/index.phtml:58
+#: view/application/index/index.phtml:55
 msgid "WHAT WE OFFER"
 msgstr ""
 
-#: view/application/index/index.phtml:59
+#: view/application/index/index.phtml:56
 msgid ""
 "You don’t need to know how to speak Spanish or how to deal with the "
 "paperwork in Argentine institutions such as the Civil Registry. We do that "
 "for you only for USD 2,000."
+msgstr ""
+
+#: view/application/index/index.phtml:78
+msgid "Contact"
 msgstr ""
 
 #: view/application/index/terms-condition.phtml:11
@@ -334,7 +342,30 @@ msgstr ""
 "o derechos de terceros, lo que incluye los gastos, honorarios de abogados y "
 "demás costas que pudieran devengarse."
 
-#: view/layout/layout.phtml:7
+#: view/layout/borrow/footer.phtml:34 view/layout/borrow/menu.phtml:15
+#: view/layout/borrow/menu2.phtml:18
+msgid "Home"
+msgstr ""
+
+#: view/layout/borrow/footer.phtml:35
+msgid "About Us"
+msgstr "Nosotros"
+
+#: view/layout/borrow/footer.phtml:45 view/layout/borrow/menu.phtml:19
+#: view/layout/borrow/menu2.phtml:24
+msgid "Services"
+msgstr "Servicios"
+
+#: view/layout/borrow/footer.phtml:46 view/layout/borrow/menu.phtml:21
+#: view/layout/borrow/menu2.phtml:27
+msgid "Contact us"
+msgstr "Contacto"
+
+#: view/layout/borrow/menu.phtml:17 view/layout/borrow/menu2.phtml:21
+msgid "About us"
+msgstr "Nosotros"
+
+#: view/layout/layout-2.phtml:7 view/layout/layout.phtml:7
 msgid "TEMPLATE"
 msgstr ""
 
