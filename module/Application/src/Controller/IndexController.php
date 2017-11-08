@@ -35,7 +35,7 @@ class IndexController extends AbstractActionController
     }
 
     public function contactOkAction(){
-
+        $this->layout('layout/layout2');
     }
 
 
