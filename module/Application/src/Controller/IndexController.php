@@ -31,7 +31,7 @@ class IndexController extends AbstractActionController
 
     public function termsConditionAction()
     {
-
+        $this->layout('layout/layout2');
     }
 
     public function contactOkAction(){
