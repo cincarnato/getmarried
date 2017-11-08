@@ -9,7 +9,6 @@ class Contact extends \Zend\Form\Form {
     public function __construct() {
         parent::__construct('contacto');
         $this->setAttribute('method', 'post');
-        $this->setAttribute('action', '/frontend/landing-page/contact');
         $this->setAttribute('class', "apply-form form-group");
         $this->setAttribute('role', "form");
 
