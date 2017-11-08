@@ -62,6 +62,7 @@ class IndexController extends AbstractActionController
         $this->mailManager()->setTemplate('application/mail/contact', ["data" => $data]);
         $this->mailManager()->setFrom("ci.sys.virtual@gmail.com");
         $this->mailManager()->addTo("cristian.cdi@gmail.com", "Cristian Incarnato");
+        $this->mailManager()->addTo("getmarriedinargentina@gmail.com", "GetMarried");
         $this->mailManager()->setSubject('Contacto Get Married - '.$data["name"].' '.$data["lastname"]);
 
         if ($this->mailManager()->send()) {
