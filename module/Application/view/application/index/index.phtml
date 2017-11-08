@@ -1,14 +1,13 @@
-<?php  echo $this->partial('application/partial/slider'); ?>
-<div class="bg-white section-space80">
+<?php echo $this->partial('application/partial/slider'); ?>
+
+<a name="section_aboutas"></a>
+<div id="section_aboutus" class="bg-white section-space80">
     <div class="container">
         <div class="row">
-
             <div class="col-md-12">
                 <div class=" bg-white">
                     <div>
                         <div class="row">
-
-
                             <div class="col-md-8">
                                 <h1><?= $this->translate("Get Married") ?></h1>
                                 <p>
@@ -34,27 +33,25 @@
                                 <p>
                                     <?= $this->translate("Want more information? Contact us!") ?>
                                 </p>
-
                             </div>
-                            <div class="col-md-4">
-                                <img src="img/Portada.png" class="img-responsive"/>
-
+                            <div class="col-md-4 text-center">
+                                <br><br><br><br>
+                                <img src="img/getmarriedlogo.png" class=" text-center "/>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 </div>
 <br><br>
-<div class="bg-white section-space80">
+<a name="section_services"></a>
+<div id="section_services" class="bg-white section-space80">
     <div class="container">
         <div class="row">
             <div class="col-md-offset-2 col-md-8 col-xs-12">
                 <div class="mb100 text-left section-title">
-                    <!-- section title start-->
                     <h1> <?= $this->translate("WHAT WE OFFER") ?>:</h1>
                     <p><?= $this->translate("You don’t need to know how to speak Spanish or how to deal with the paperwork in Argentine institutions such as the Civil Registry. We do that for you only for USD 2,000.") ?></p>
                     <ul>
@@ -65,52 +62,51 @@
                         <li>A dinner last night to celebrate!</li>
                     </ul>
                 </div>
-                <!-- /.section title start-->
+
             </div>
         </div>
 
     </div>
 </div>
 <br><br>
-<div class="bg-white section-space80">
+<a name="section_contact"></a>
+<div id="section_contact" class="bg-white section-space80">
     <div class="container">
         <div class="row">
             <div class="col-md-offset-2 col-md-8 col-xs-12">
-                <div class="mb100 text-center section-title">
-                    <!-- section title start-->
-                    <h1>How does it work?</h1>
-                    <p>We have a fast and easy process.</p>
+                <div class="mb100 text-left section-title">
+                    <h1> <?= $this->translate("Contact") ?>:</h1>
+                    <?php
+                    $config = [
+                        [
+                            'type' => \ZfMetal\Commons\Options\FormGroupConfig::TYPE_HORIZONTAL,
+                            'id' => 'nombreApellido',
+                            'columns' => \ZfMetal\Commons\Consts::COLUMNS_TWO,
+                            'style' => \ZfMetal\Commons\Consts::STYLE_PLACEHOLDER,
+                            'fields' => ['name', 'lastname']
+                        ],
+                        [
+                            'type' => \ZfMetal\Commons\Options\FormGroupConfig::TYPE_HORIZONTAL,
+                            'id' => 'email',
+                            'columns' => \ZfMetal\Commons\Consts::COLUMNS_ONE,
+                            'style' => \ZfMetal\Commons\Consts::STYLE_PLACEHOLDER,
+                            'fields' => ['email']
+                        ],
+                        [
+                            'type' => \ZfMetal\Commons\Options\FormGroupConfig::TYPE_HORIZONTAL,
+                            'id' => 'message',
+                            'columns' => \ZfMetal\Commons\Consts::COLUMNS_ONE,
+                            'style' => \ZfMetal\Commons\Consts::STYLE_PLACEHOLDER,
+                            'fields' => ['message']
+                        ]
+                    ];
+                    echo $this->renderForm($this->form, \ZfMetal\Commons\Consts::STYLE_PLACEHOLDER, \ZfMetal\Commons\Consts::COLUMNS_TWO, $config);
+                    ?>
                 </div>
-                <!-- /.section title start-->
+
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="bg-white pinside40 number-block mb30 outline">
-                    <div class="circle"><span class="number">1</span></div>
-                    <h3>Choose Loan Amount</h3>
-                    <p>Suspendisse accumsan imperdue ligula dignissim sit amet vestibulum in mollis etfelis.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="bg-white pinside40 number-block mb30 outline">
-                    <div class="circle"><span class="number">2</span></div>
-                    <h3>Approved Your Loan</h3>
-                    <p>Fusce tempor sstibulum varius sem nec mi luctus viverra edcongue lobortis faucibus.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="bg-white pinside40 number-block mb30 outline">
-                    <div class="circle"><span class="number">3</span></div>
-                    <h3>Get Your Cash</h3>
-                    <p>Get your money in minutes simtibulm varius semnec mluctus gue lobortis faucibus.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 text-center mt30"><a href="#"
-                                                                                               class="btn btn-default">Find
-                    your rate</a></div>
-        </div>
+
     </div>
 </div>
+<br>

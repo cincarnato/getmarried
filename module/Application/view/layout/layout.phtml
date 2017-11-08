@@ -1,37 +1,28 @@
 <?php echo $this->doctype(); ?>
 
 <html lang="UTF-8">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-        <?php echo $this->headTitle($this->translate('TEMPLATE'))->setSeparator(' - ')->setAutoEscape(false) ?>
+    <?php echo $this->headTitle($this->translate('TEMPLATE'))->setSeparator(' - ')->setAutoEscape(false) ?>
 
-        <?php
-        echo $this->headMeta()
-                ->appendName('viewport', 'width=device-width, initial-scale=1.0')
-                ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
-        ?>
+    <?php
+    echo $this->headMeta()
+        ->appendName('viewport', 'width=device-width, initial-scale=1.0')
+        ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
+    ?>
 
-        <!-- Le styles -->
-        <?php echo $this->partial('layout/css'); ?>
-        <?php echo $this->partial('layout/js'); ?>
-
-    </head>
-    <body>
-
-    <?php //echo $this->partial('layout/borrow/topbar'); ?>
-
-        <?php echo $this->partial('layout/borrow/menu2'); ?>
-
-        <div class="" >
-
-            <?php echo $this->content; ?>
-
-        </div> <!-- /container -->
-
-        <?php echo $this->partial('layout/borrow/footer'); ?>
-
-
-        <?php echo $this->inlineScript() ?>
-    </body>
+    <?php echo $this->partial('layout/css'); ?>
+    <?php echo $this->partial('layout/js'); ?>
+</head>
+<body>
+<?php //echo $this->partial('layout/borrow/topbar'); ?>
+<?php echo $this->partial('layout/borrow/menu2'); ?>
+<a name="section_home"></a>
+    <div class="">
+                <?php echo $this->content; ?>
+    </div>
+<?php echo $this->partial('layout/borrow/footer'); ?>
+<?php echo $this->inlineScript() ?>
+</body>
 </html>

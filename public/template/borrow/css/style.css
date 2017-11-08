@@ -200,7 +200,7 @@ Background & Block color
 Buttons
 ------------------------------------------*/
 .btn { font-size: 14px; border-radius: 2px; line-height: 12px; letter-spacing: 1px; text-transform: uppercase; padding: 20px 30px; border: none; font-weight: 600; }
-.btn-default { background-color: #f51f8a; color: #fff; border-color: #f51f8a; }
+.btn-default { background-color: #FC4C00; color: #fff; border-color: #FC4C00; }
 .btn-default:hover { color: #fff; background-color: #ff389c; border-color: #ff389c; }
 .btn-default.focus, .btn-default:focus { color: #fff; background-color: #d5504f; border-color: #c64241; }
 .btn-primary { background-color: #15549a; color: #fff; }
@@ -396,7 +396,7 @@ index-1
 /*------------------------------------
  index-3 (updated: 16 june 2017)
 -------------------------------------*/
-.header-transparent { background-color: rgba(255, 255, 255, .1); padding-top: 19px; padding-bottom: 19px; border-bottom: 1px solid rgba(255, 255, 255, .08); }
+.header-transparent { background-color: rgba(255, 255, 255, .1); padding-top: 9px; padding-bottom: 9px; border-bottom: 1px solid rgba(255, 255, 255, .08); }
 .header-transparent #navigation > ul > li.has-sub > a { padding-right: 30px; }
 .header-transparent #navigation > ul > li > a { padding: 16px 10px; font-size: 13px; text-decoration: none; color: #fff; font-weight: 600; text-transform: uppercase; }
 .header-transparent #navigation { float: right; margin-top: 0px; position: relative; z-index: 99; }

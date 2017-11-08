@@ -1,41 +1,36 @@
 <div class="header-transparent navbar-fixed-top">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-12 col-xs-6">
+            <div class="pull-right">
+                <?php echo $this->partial('layout/borrow/lang'); ?>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 col-xs-6">
                 <!-- logo -->
                 <div class="logo">
-                    <h2 class="slider-text" href="">GetMarried<br>In Buenos Aires</h2>
+                    <h3 class="slider-text text-center" href="">GetMarried<br>In Buenos Aires</h3>
                 </div>
             </div>
             <!-- logo -->
-            <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
                 <div id="navigation">
-                    <!-- navigation start-->
                     <ul>
                         <li class="active">
-                            <a href="" class="animsition-link">Home</a>
+                            <a href="#section_home" class="animsition-link">Home</a>
                         </li>
                         <li>
-                            <a href="" class="animsition-link">Loan Product</a>
-
+                            <a href="#section_aboutus" class="animsition-link">About us</a>
                         </li>
                         <li>
-                            <a href="" class="animsition-link">About us</a>
+                            <a href="#section_services" class="animsition-link">Services</a>
                         </li>
                         <li>
-                            <a href="" class="animsition-link">Features</a>
-
-                        </li>
-                        <li>
-                            <a href="" title="Contact us" class="animsition-link">Contact us</a>
+                            <a href="#section_contact" title="Contact us" class="animsition-link">Contact us</a>
                         </li>
                     </ul>
                 </div>
-                <!-- /.navigation start-->
+
             </div>
-            <div class="col-md-3 col-sm-12 col-xs-12">
-            <?php echo $this->partial('layout/borrow/lang'); ?>
-            </div>
+
         </div>
     </div>
 </div>

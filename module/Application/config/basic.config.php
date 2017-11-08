@@ -40,6 +40,17 @@ return [
                     ],
                 ],
             ],
+            'ContactOk' => [
+                'type' => 'Literal',
+                'mayTerminate' => true,
+                'options' => [
+                    'route' => '/contact-ok',
+                    'defaults' => [
+                        'controller' => \Application\Controller\IndexController::CLASS,
+                        'action' => 'contact-ok',
+                    ],
+                ],
+            ],
         ],
     ],
     'view_manager' => [
