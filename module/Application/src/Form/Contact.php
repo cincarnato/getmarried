@@ -22,11 +22,11 @@ class Contact extends \Zend\Form\Form {
             ),
         ));
         $this->add(array(
-            'name' => 'lastname',
+            'name' => 'country',
             'type' => 'Zend\Form\Element\Text',
             'attributes' => array(
                 'class' => 'form-control',
-                'placeholder' => 'Lastname',
+                'placeholder' => 'Country',
                 'required' => 'required',
             ),
         ));
@@ -54,7 +54,7 @@ class Contact extends \Zend\Form\Form {
             'name' => 'submit',
             'type' => 'Zend\Form\Element\Submit',
             'attributes' => array(
-                'value' => "Enviar",
+                'value' => "Send",
                 'class' => 'btn1 btn-center',
             ),
         ));

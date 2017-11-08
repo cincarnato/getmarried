@@ -1,7 +1,7 @@
 <?php echo $this->partial('application/partial/slider'); ?>
 
-<a name="section_aboutas"></a>
-<div id="section_aboutus" class="bg-white section-space80">
+<a name="section_home"></a>
+<div id="section_home" class="bg-white section-space80">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -9,9 +9,9 @@
                     <div>
                         <div class="row">
                             <div class="col-md-8">
-                                <h1><?= $this->translate("Get Married") ?></h1>
+                                <h1><?= $this->translate("Home") ?></h1>
                                 <p>
-                                    <?= $this->translate("Why would you choose Buenos Aires to marry?") ?>
+                                    <?= $this->translate("Why would you choose Buenos Aires to marry? ") ?>
                                 </p>
                                 <p>
                                     <?= $this->translate("There are many reasons why you’d like to marry in Buenos Aires, Argentina. Sexual orientation, faith or simply fun. Whatever your reasons we can help you make your dream come true") ?>
@@ -83,7 +83,7 @@
                             'id' => 'nombreApellido',
                             'columns' => \ZfMetal\Commons\Consts::COLUMNS_TWO,
                             'style' => \ZfMetal\Commons\Consts::STYLE_PLACEHOLDER,
-                            'fields' => ['name', 'lastname']
+                            'fields' => ['name', 'country']
                         ],
                         [
                             'type' => \ZfMetal\Commons\Options\FormGroupConfig::TYPE_HORIZONTAL,
