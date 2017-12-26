@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-11-08 07:36-0300\n"
-"PO-Revision-Date: 2017-11-08 07:37-0300\n"
+"POT-Creation-Date: 2017-12-26 12:34-0300\n"
+"PO-Revision-Date: 2017-12-26 12:35-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.5\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -19,30 +19,32 @@ msgstr ""
 
 #: view/application/index/contact-ok.phtml:3
 msgid "Message sent!"
+msgstr "Mensaje Enviado!"
+
+#: view/application/index/index.phtml:12 view/layout/borrow/footer.phtml:34
+#: view/layout/borrow/menu.phtml:15 view/layout/borrow/menu2.phtml:18
+msgid "Home"
 msgstr ""
 
-#: view/application/index/index.phtml:12
-msgid "Get Married"
-msgstr "Get Married"
-
 #: view/application/index/index.phtml:14
-msgid "Why would you choose Buenos Aires to marry?"
+msgid "Why would you choose Buenos Aires to marry? "
 msgstr "¿Por qué elegir Buenos Aires para casarte?"
 
 #: view/application/index/index.phtml:17
 msgid ""
 "There are many reasons why you’d like to marry in Buenos Aires, Argentina. "
-"Sexual orientation, faith or simply fun. Whatever your reasons we can help "
-"you make your dream come true"
+"Sexual orientation, exoticism or simply fun. Whatever your reasons we can "
+"help you make your dream come true."
 msgstr ""
 "Existen muchas razones por las cuales querrías casarte en Buenos Aires, "
 "Argentina: Orientación sexual, exotismo o simplemente diversión. Sea como "
-"sea, te podemos ayudar a hacer tu sueño realidad. "
+"sea, te podemos ayudar a hacer tu sueño realidad."
 
 #: view/application/index/index.phtml:21
 msgid ""
-"We offer assistance with all paperwork, translations and interpretation "
-"services required for a civil ceremony in Buenos Aires."
+"We offer professional assistance with all paperwork, translations and "
+"interpretation services required for a civil marriage ceremony in Buenos "
+"Aires."
 msgstr ""
 "Te brindamos asistencia profesional en todos los trámites, traducciones y "
 "servicio de interpretación que se requieren para una ceremonia de matrimonio "
@@ -50,8 +52,9 @@ msgstr ""
 
 #: view/application/index/index.phtml:24
 msgid ""
-"Our country is not only a place for tango lovers but also a place where "
-"civil rights are granted to everybody."
+"Argentina is not only a place for tango lovers, but also a place where civil "
+"rights are granted to everybody, regardless their sexual orientation, "
+"nationality or religion."
 msgstr ""
 "Argentina es más que un lugar para los amantes del tango, también es un "
 "lugar en donde los derechos civiles están garantizados para todos, sea cual "
@@ -61,22 +64,21 @@ msgstr ""
 msgid ""
 "In Argentina same sex marriage is legal and, as stated in our Marriage Law, "
 "“any foreigner (regardless their sexual orientation) who enters, travels or "
-"resides in The Argentine Republic” can marry"
+"resides in The Argentine Republic” can marry."
 msgstr ""
 "En Argentina el casamiento entre personas del mismo sexo es legal y, tal "
 "como se lee en nuestra Ley de matrimonio: “todo extranjero o extranjera (más "
 "allá de su orientación sexual) que ingrese, transite o resida en la "
-"República Argentina” puede casarse. "
+"República Argentina” puede casarse."
 
 #: view/application/index/index.phtml:31
 msgid ""
 "Therefore, our country is one of the few places where everyone can legally "
 "marry and the only place in the world where tourists can do so."
 msgstr ""
-
-#: view/application/index/index.phtml:34
-msgid "Want more information? Contact us!"
-msgstr ""
+"Por lo tanto, nuestro país es uno de los pocos lugares en donde todos pueden "
+"casarse legalmente y el único lugar en el mundo en donde los turistas lo "
+"pueden hacer."
 
 #: view/application/index/index.phtml:55
 msgid "WHAT WE OFFER"
@@ -88,10 +90,33 @@ msgid ""
 "paperwork in Argentine institutions such as the Civil Registry. We do that "
 "for you only for USD 2,000."
 msgstr ""
+"No necesitás saber hablar español o cómo hacer trámites en instituciones "
+"argentinas tales como el Registro Civil. Nosotros lo hacemos por vos sólo "
+"por USD 2.000."
+
+#: view/application/index/index.phtml:58
+msgid "Hotel booking"
+msgstr "Reserva de hotel"
+
+#: view/application/index/index.phtml:59
+msgid "Transport from and to the airport (and within Buenos Aires)"
+msgstr "Transporte desde y al aeropuerto (y dentro de Buenos Aires)"
+
+#: view/application/index/index.phtml:60
+msgid "Assistance with all paperwork"
+msgstr "Asistencia con todos los trámites "
+
+#: view/application/index/index.phtml:61
+msgid "Civil wedding"
+msgstr "Boda civil"
+
+#: view/application/index/index.phtml:62
+msgid "A dinner last night to celebrate!"
+msgstr "Cena para celebrar la última noche!"
 
 #: view/application/index/index.phtml:78
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #: view/application/index/terms-condition.phtml:11
 msgid "Terms and Conditions"
@@ -160,7 +185,7 @@ msgstr ""
 "titular del Sitio a suspender o terminar la prestación del servicio al "
 "Usuario que las haya realizado, por acción u omisión. El Sitio se preocupa "
 "por la protección de datos de carácter personal de los Usuarios, de acuerdo "
-"a los lineamientos expuestos en nuestra Política de Privacidad. "
+"a los lineamientos expuestos en nuestra Política de Privacidad."
 
 #: view/application/index/terms-condition.phtml:22
 msgid ""
@@ -214,7 +239,7 @@ msgstr ""
 
 #: view/application/index/terms-condition.phtml:30
 msgid "Availability / Price of the products"
-msgstr "Disponibilidad / Precio de productos "
+msgstr "Disponibilidad / Precio de productos"
 
 #: view/application/index/terms-condition.phtml:33
 msgid ""
@@ -222,7 +247,7 @@ msgid ""
 "prior notice."
 msgstr ""
 "La información sobre productos y precios está sujeta a cambios sin previo "
-"aviso. "
+"aviso."
 
 #: view/application/index/terms-condition.phtml:36
 msgid "All prices on the Site are stated in American Dollars."
@@ -236,7 +261,7 @@ msgid ""
 msgstr ""
 "Antes de comprar, el Usuario deberá tener en cuenta que los productos "
 "seleccionados pueden no encontrarse disponibles, dado que toda compra se "
-"encuentra sujeta a disponibilidad. "
+"encuentra sujeta a disponibilidad."
 
 #: view/application/index/terms-condition.phtml:44
 msgid ""
@@ -246,7 +271,7 @@ msgid ""
 msgstr ""
 "Al realizar una compra on line a través del Sitio, se tienen por aceptados "
 "por el Usuario los presentes Términos y Condiciones, la Política de "
-"Privacidad y la Política de Cambios de Venta On Line vigentes. "
+"Privacidad y la Política de Cambios de Venta On Line vigentes."
 
 #: view/application/index/terms-condition.phtml:48
 msgid "Services of Get Married in Argentina"
@@ -284,7 +309,7 @@ msgstr ""
 "ninguna incidencia en los tiempos burocráticos de los trámites realizados "
 "los cuales se respetan en tiempo en forma de acuerdo a la legislación "
 "vigente. Los servicios de Get Married In Argentina se refieren a la "
-"orientación y  guía en dichos trámites. "
+"orientación y  guía en dichos trámites."
 
 #: view/application/index/terms-condition.phtml:66
 msgid "Modification of the Terms and Conditions"
@@ -342,32 +367,27 @@ msgstr ""
 "o derechos de terceros, lo que incluye los gastos, honorarios de abogados y "
 "demás costas que pudieran devengarse."
 
-#: view/layout/borrow/footer.phtml:34 view/layout/borrow/menu.phtml:15
-#: view/layout/borrow/menu2.phtml:18
-msgid "Home"
-msgstr ""
-
 #: view/layout/borrow/footer.phtml:35
 msgid "About Us"
 msgstr "Nosotros"
 
-#: view/layout/borrow/footer.phtml:45 view/layout/borrow/menu.phtml:19
-#: view/layout/borrow/menu2.phtml:24
+#: view/layout/borrow/footer.phtml:45 view/layout/borrow/menu.phtml:17
+#: view/layout/borrow/menu2.phtml:21
 msgid "Services"
 msgstr "Servicios"
 
-#: view/layout/borrow/footer.phtml:46 view/layout/borrow/menu.phtml:21
-#: view/layout/borrow/menu2.phtml:27
+#: view/layout/borrow/footer.phtml:46 view/layout/borrow/menu.phtml:19
+#: view/layout/borrow/menu2.phtml:24
 msgid "Contact us"
 msgstr "Contacto"
 
-#: view/layout/borrow/menu.phtml:17 view/layout/borrow/menu2.phtml:21
-msgid "About us"
-msgstr "Nosotros"
-
-#: view/layout/layout-2.phtml:7 view/layout/layout.phtml:7
+#: view/layout/layout-2.phtml:7
 msgid "TEMPLATE"
 msgstr ""
+
+#: view/layout/layout.phtml:7
+msgid "GetMarried"
+msgstr "GetMarried"
 
 #: view/zf-metal/security/login/login.phtml:83
 msgid "Not registered?"
@@ -398,6 +418,9 @@ msgstr ""
 #: view/zf-metal/security/recovery/ok.phtml:2
 msgid "Por favor, revisar tu email"
 msgstr ""
+
+#~ msgid "About us"
+#~ msgstr "Nosotros"
 
 #~ msgid ""
 #~ "There are manyreasons why you’d like to marry in Buenos Aires, Argentina. "
